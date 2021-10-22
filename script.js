@@ -17,32 +17,32 @@ let gruppoPersonaggi = {singleElement : [
     {
         nome:'Wayne Barnett',
         text:'Founder & CEO',
-        image:'wayne-barnett-founder-ceo.jpg',
+        image:'img/wayne-barnett-founder-ceo.jpg',
     },
     {
       nome:'Angela Caroll',
       text:'Chief Editor',
-      image:'angela-caroll-chief-editor.jpg',
+      image:'img/angela-caroll-chief-editor.jpg',
   },
   {
       nome:'Walter Gordon',
       text:'Office Manager',
-      image:'walter-gordon-office-manager.jpg',
+      image:'img/walter-gordon-office-manager.jpg',
   },
   {
       nome:'Angela Lopez',
       text:'Social Media Manager',
-      image:'angela-lopez-social-media-manager.jpg',
+      image:'img/angela-lopez-social-media-manager.jpg',
   },
   {
       nome:'Scott Estrada',
       text:'Developer',
-      image:'scott-estrada-developer.jpg',
+      image:'img/scott-estrada-developer.jpg',
   },
   {
       nome:'Barbara Ramos',
       text:'Graphic Designer',
-      image:'barbara-ramos-graphic-designer.jpg',
+      image:'img/barbara-ramos-graphic-designer.jpg',
   }
 ]
 
@@ -69,7 +69,7 @@ for (let i = 0, len = personaggi.length; i<len; i++) {
           <img
             src="${personaggi[i].image}"
             alt="${personaggi[i].nome}"
-          />
+          >
         </div>
         <div class="card-text">
           <h3>${personaggi[i].nome}</h3>
